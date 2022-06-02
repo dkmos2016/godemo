@@ -2,8 +2,7 @@ package main
 
 import (
 	"fmt"
-
-	utils "github.com/dkmos2016/go-sdk-utils"
+	//utils "github.com/dkmos2016/go-sdk-utils"
 	"golang.org/x/crypto/md4"
 	_ "gopkg.in/yaml.v3"
 )
@@ -11,7 +10,7 @@ import (
 func main() {
 	fmt.Println("Hello World!")
 
-	utils.Test()
+	//utils.Test()
 
 	//crypto
 	md4.New()
